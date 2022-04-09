@@ -91,7 +91,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ModelViewerElement": () => (/* binding */ Hx)
 /* harmony export */ });
-/* harmony import */ var C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@angular-devkit/build-angular/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 83918);
+/* harmony import */ var C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@angular-devkit/build-angular/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 83918);
 
 
 /**
@@ -1033,7 +1033,7 @@ class X extends HTMLElement {
   _enqueueUpdate() {
     var _this = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this._updateState = 4 | _this._updateState;
 
       try {
@@ -11125,7 +11125,7 @@ class Us extends et {
     }, this.getSession = function () {
       return i;
     }, this.setSession = /*#__PURE__*/function () {
-      var _ref = (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (l) {
+      var _ref = (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (l) {
         if (i = l, null !== i) {
           if (f = t.getRenderTarget(), i.addEventListener("select", T), i.addEventListener("selectstart", T), i.addEventListener("selectend", T), i.addEventListener("squeeze", T), i.addEventListener("squeezestart", T), i.addEventListener("squeezeend", T), i.addEventListener("end", E), i.addEventListener("inputsourceschange", A), !0 !== m.xrCompatible && (yield e.makeXRCompatible()), void 0 === i.renderState.layers || !1 === t.capabilities.isWebGL2) {
             const n = {
@@ -21094,7 +21094,7 @@ class Gh extends et {
   static delete(t) {
     var _this2 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (!_this2.has(t)) return;
       const e = Ih.get(t);
       Dh.delete(t), Ih.delete(t);
@@ -21113,7 +21113,7 @@ class Gh extends et {
   preload(t, e, n = () => {}) {
     var _this3 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (_this3.dispatchEvent({
         type: "preload",
         element: e,
@@ -21146,7 +21146,7 @@ class Gh extends et {
   load(t, e, n = () => {}) {
     var _this4 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this4.preload(t, e, n);
       const i = yield Ih.get(t),
             r = yield i.clone();
@@ -21884,7 +21884,7 @@ class Ru extends Bs {
   setObject(t) {
     var _this5 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this5.reset(), _this5.modelContainer.add(t), yield _this5.setupScene();
     })();
   }
@@ -21892,7 +21892,7 @@ class Ru extends Bs {
   setSource(t, e = () => {}) {
     var _this6 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (!t || t === _this6.url) return void e(1);
 
       if (_this6.reset(), _this6.url = t, null != _this6.externalRenderer) {
@@ -21908,7 +21908,7 @@ class Ru extends Bs {
 
       try {
         n = yield new Promise( /*#__PURE__*/function () {
-          var _ref2 = (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (n, i) {
+          var _ref2 = (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (n, i) {
             _this6.cancelPendingSourceChange = () => i();
 
             try {
@@ -21943,7 +21943,7 @@ class Ru extends Bs {
   setupScene() {
     var _this7 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this7.updateBoundingBox(), yield _this7.updateFraming(), _this7.updateShadow(), _this7.setShadowIntensity(_this7.shadowIntensity), _this7.dispatchEvent({
         type: "model-load",
         url: _this7.url
@@ -21992,7 +21992,7 @@ class Ru extends Bs {
   updateFraming() {
     var _this8 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this8.target.remove(_this8.modelContainer);
 
       let t = _this8.boundingBox.getCenter(new At());
@@ -22534,7 +22534,7 @@ class $u extends et {
   resolveARSession() {
     var _this9 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       Kh();
       const t = yield navigator.xr.requestSession("immersive-ar", {
         requiredFeatures: ["hit-test"],
@@ -22552,7 +22552,7 @@ class $u extends et {
   }
 
   supportsPresentation() {
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
         return Kh(), yield navigator.xr.isSessionSupported("immersive-ar");
       } catch (t) {
@@ -22564,7 +22564,7 @@ class $u extends et {
   present(t, e = !1) {
     var _this10 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this10.isPresenting && console.warn("Cannot present while a model is already presenting");
       let n = new Promise((t, e) => {
         requestAnimationFrame(() => t());
@@ -22605,7 +22605,7 @@ class $u extends et {
   stopPresenting() {
     var _this11 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (!_this11.isPresenting) return;
       const t = new Promise(t => {
         _this11.resolveCleanup = t;
@@ -23565,7 +23565,7 @@ class Md extends et {
   }
 
   load(t, e = () => {}) {
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
         const n = bd.test(t),
               i = n ? _d : wd,
@@ -23582,7 +23582,7 @@ class Md extends et {
   generateEnvironmentMapAndSkybox(t = null, e = null, n = {}) {
     var _this12 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const {
         progressTracker: i
       } = n,
@@ -23603,7 +23603,7 @@ class Md extends et {
   loadEquirectFromUrl(t, e) {
     var _this13 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (!_this13.skyboxCache.has(t)) {
         const n = e ? e.beginActivity() : () => {},
               i = _this13.load(t, n);
@@ -23618,7 +23618,7 @@ class Md extends et {
   GenerateEnvironmentMap(t, e) {
     var _this14 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield ru();
       const n = _this14.threeRenderer,
             i = new Bn(256, {
@@ -23640,7 +23640,7 @@ class Md extends et {
   loadGeneratedEnvironmentMap() {
     var _this15 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       return null == _this15.generatedEnvironmentMap && (_this15.generatedEnvironmentMap = _this15.GenerateEnvironmentMap(new yd(), "default")), _this15.generatedEnvironmentMap;
     })();
   }
@@ -23648,7 +23648,7 @@ class Md extends et {
   loadGeneratedEnvironmentMapAlt() {
     var _this16 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       return null == _this16.generatedEnvironmentMapAlt && (_this16.generatedEnvironmentMapAlt = _this16.GenerateEnvironmentMap(new xd(), "neutral")), _this16.generatedEnvironmentMapAlt;
     })();
   }
@@ -23656,7 +23656,7 @@ class Md extends et {
   blurCubemap(t, e) {
     var _this17 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (null == _this17.blurMaterial) {
         _this17.blurMaterial = _this17.getBlurShader(20);
         const t = new Pn(),
@@ -23672,7 +23672,7 @@ class Md extends et {
   halfblur(t, e, n, i) {
     var _this18 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const r = t.width,
             s = isFinite(n) ? Math.PI / (2 * r) : 2 * Math.PI / 39,
             a = n / s,
@@ -23735,7 +23735,7 @@ class Md extends et {
   dispose() {
     var _this19 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       for (const [, t] of _this19.skyboxCache) {
         (yield t).dispose();
       }
@@ -24183,7 +24183,7 @@ class gp extends X {
       width: e,
       height: n
     }), this[np].addEventListener("model-load", /*#__PURE__*/function () {
-      var _ref3 = (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t) {
+      var _ref3 = (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t) {
         _this20[Kd](), _this20[sp](), yield ru(), _this20.dispatchEvent(new CustomEvent("load", {
           detail: {
             url: t.url
@@ -24270,7 +24270,7 @@ class gp extends X {
   toBlob(t) {
     var _this21 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const e = t ? t.mimeType : void 0,
             n = t ? t.qualityArgument : void 0,
             i = t ? t.idealAspect : void 0,
@@ -24299,12 +24299,12 @@ class gp extends X {
 
       try {
         return new Promise( /*#__PURE__*/function () {
-          var _ref4 = (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t, i) {
+          var _ref4 = (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t, i) {
             return kd.getContext("2d").drawImage(_this21[op].displayCanvas(_this21[np]), d, p, h, u, 0, 0, h, u), !kd.msToBlob || e && "image/png" !== e ? kd.toBlob ? void kd.toBlob(e => {
               if (!e) return i(new Error("Unable to retrieve canvas blob"));
               t(e);
             }, e, n) : t(yield function () {
-              var _ref5 = (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t) {
+              var _ref5 = (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t) {
                 return new Promise((e, n) => {
                   const i = t.match(/data:(.*);/);
                   if (!i) return n(new Error(`${t} is not a valid data Url`));
@@ -24409,7 +24409,7 @@ class gp extends X {
   [(Od = Gd, $d)]() {
     var _this22 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (_this22.loaded || !_this22[up]()) return;
 
       const t = _this22[lp].beginActivity(),
@@ -24965,7 +24965,7 @@ function ym(t, e) {
 
 class xm {
   parse(t) {
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const e = {};
       e["model.usda"] = null;
       let n = wm();
@@ -26319,7 +26319,7 @@ const Yg = "auto",
   updateStatus() {
     var _this23 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (!_this23.statusUpdateInProgress && 0 !== _this23.loadingPromises.length) {
         for (_this23.statusElement.textContent = "This page includes one or more 3D models that are loading", _this23.statusUpdateInProgress = !0, _this23.dispatchEvent({
           type: "initial-status-announced"
@@ -26475,7 +26475,7 @@ class Vv {
   write(t, e, n) {
     var _this24 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this24.options = Object.assign({}, {
         binary: !1,
         trs: !1,
@@ -27493,7 +27493,7 @@ class oy extends ey {
   setURI(t) {
     var _this25 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this25[Qv].uri = t;
       const e = yield new Promise((e, n) => {
         ny.load(t, e, void 0, n);
@@ -27506,7 +27506,7 @@ class oy extends ey {
   createThumbnail(t, e) {
     var _this26 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const n = new Bs();
       iy.map = _this26[ay];
       const i = new Ln(ry, iy);
@@ -27522,7 +27522,7 @@ class oy extends ey {
       const l = kd.getContext("2d"),
             c = l.createImageData(t, e);
       return c.data.set(o), l.putImageData(c, 0, 0), new Promise( /*#__PURE__*/function () {
-        var _ref6 = (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t, e) {
+        var _ref6 = (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t, e) {
           kd.toBlob(n => {
             if (!n) return e("Failed to capture thumbnail.");
             t(URL.createObjectURL(n));
@@ -27907,13 +27907,13 @@ class Xy extends ey {
   [zy]() {
     var _this27 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (null != _this27[Uy]) {
         const {
           set: t,
           material: e
         } = yield _this27[Uy].doLazyLoad();
-        return _this27[Kv] = t, _this27[ky](_this27[Uy].gltf), _this27[Uy] = void 0, _this27.ensureLoaded = /*#__PURE__*/(0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {}), e;
+        return _this27[Kv] = t, _this27[ky](_this27[Uy].gltf), _this27[Uy] = void 0, _this27.ensureLoaded = /*#__PURE__*/(0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {}), e;
       }
 
       return _this27[Kv].values().next().value;
@@ -27927,7 +27927,7 @@ class Xy extends ey {
   ensureLoaded() {
     var _this28 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this28[zy]();
     })();
   }
@@ -28109,7 +28109,7 @@ class sx extends rx {
   setActiveMaterial(t) {
     var _this29 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const e = _this29[$y].get(t);
 
       return null != e && (_this29.mesh.material = yield e[zy](), _this29[ix] = t), _this29.mesh.material;
@@ -28127,7 +28127,7 @@ class sx extends rx {
   enableVariant(t) {
     var _this30 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (null == t) return _this30.setActiveMaterial(_this30[nx]);
 
       if (null != _this30[Ky] && _this30[Qy].has(t)) {
@@ -28143,7 +28143,7 @@ class sx extends rx {
   enableVariantHelper(t) {
     var _this31 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (null != _this31[Ky] && null != t) {
         const e = _this31[Ky].get(t);
 
@@ -28157,7 +28157,7 @@ class sx extends rx {
   instantiateVariants() {
     var _this32 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (null != _this32[Ky]) for (const t of _this32[Ky].keys()) {
         if (null != _this32.mesh.userData.variantMaterials.get(t).material) continue;
         const e = yield _this32.enableVariantHelper(t);
@@ -28259,7 +28259,7 @@ class Ax {
         const s = (n.materials || [])[t],
               o = t,
               l = /*#__PURE__*/function () {
-          var _ref8 = (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+          var _ref8 = (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
             const t = yield i.parser.getDependency("material", o),
                   e = new Set();
             return r.set(s, e), e.add(t), {
@@ -28328,7 +28328,7 @@ class Ax {
   [yx](t) {
     var _this33 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       for (const e of _this33[fx]) yield e.enableVariant(t);
 
       for (const t of _this33.materials) t[Vy](!1);
@@ -28340,7 +28340,7 @@ class Ax {
   [vx]() {
     var _this34 = this;
 
-    return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const t = new Array();
 
       for (const e of _this34[fx]) t.push(e.instantiateVariants());
@@ -28600,7 +28600,7 @@ const Fx = Math.PI / 32,
     createTexture(t, e = "image/png") {
       var _this35 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         const n = _this35[Lx],
               i = yield new Promise(e => _this35[Ix].load(t, e));
         return n && i ? (i.encoding = 3001, i.wrapS = 1e3, i.wrapT = 1e3, i.flipY = !1, "image/jpeg" === e && (i.format = 1022), new xy(_this35[Px](), i)) : null;
@@ -28611,7 +28611,7 @@ const Fx = Math.PI / 32,
       var _superprop_getUpdated = () => super.updated,
           _this36 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         if (_superprop_getUpdated().call(_this36, t), t.has("variantName")) {
           const t = _this36[Lx],
                 {
@@ -28654,10 +28654,10 @@ const Fx = Math.PI / 32,
     exportScene(t) {
       var _this37 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         const e = _this37[np];
         return new Promise( /*#__PURE__*/function () {
-          var _ref9 = (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (n) {
+          var _ref9 = (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (n) {
             const i = {
               binary: !0,
               onlyVisible: !0,
@@ -28784,7 +28784,7 @@ const Fx = Math.PI / 32,
     [Iu]() {
       var _this38 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         const {
           skyboxImage: t,
           environmentImage: e
@@ -28798,7 +28798,7 @@ const Fx = Math.PI / 32,
             environmentMap: i,
             skybox: r
           } = yield new Promise( /*#__PURE__*/function () {
-            var _ref10 = (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (i, r) {
+            var _ref10 = (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (i, r) {
               const s = n.generateEnvironmentMapAndSkybox($h(t), e, {
                 progressTracker: _this38[lp]
               });
@@ -28952,7 +28952,7 @@ const Fx = Math.PI / 32,
     updateFraming() {
       var _this39 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         const t = _this39[np],
               e = t.adjustedFoV(t.framedFoVDeg);
         yield t.updateFraming();
@@ -29075,7 +29075,7 @@ const Fx = Math.PI / 32,
       var _superprop_get = _prop => super[_prop],
           _this40 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         const e = _this40[vg],
               n = _this40[np],
               i = n.adjustedFoV(n.framedFoVDeg);
@@ -29221,7 +29221,7 @@ const Fx = Math.PI / 32,
       var _superprop_getUpdate = () => super.update,
           _this41 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         _superprop_getUpdate().call(_this41, t), t.has("arScale") && (_this41[np].canScale = "fixed" !== _this41.arScale), t.has("arPlacement") && (_this41[np].updateShadow(), _this41[ip]()), (t.has("ar") || t.has("arModes") || t.has("src") || t.has("iosSrc")) && (t.has("arModes") && (_this41[Vm] = Cm(_this41.arModes)), _this41[Zm]());
       })();
     }
@@ -29229,7 +29229,7 @@ const Fx = Math.PI / 32,
     activateAR() {
       var _this42 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         switch (_this42[Hm]) {
           case Im:
             _this42[zm]();
@@ -29254,7 +29254,7 @@ const Fx = Math.PI / 32,
     [(e = Bm, n = Om, i = Gm, r = Vm, s = Hm, a = Wm, o = jm, l = qm, c = Xm, h = Ym, Zm)]() {
       var _this43 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         if (_this43[Hm] = Fm, _this43.ar) {
           if (null != _this43.src) for (const t of _this43[Vm]) {
             if ("webxr" === t && ac && !Rm && (yield _this43[op].arRenderer.supportsPresentation())) {
@@ -29290,7 +29290,7 @@ const Fx = Math.PI / 32,
     [Um]() {
       var _this44 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         console.log("Attempting to present in AR with WebXR..."), yield _this44[Jm]();
 
         try {
@@ -29311,7 +29311,7 @@ const Fx = Math.PI / 32,
     [Jm]() {
       var _this45 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         _this45.loaded || (_this45[Wm] = !0, _this45[$d](), yield ((t, e, n = null) => new Promise(i => {
           t.addEventListener(e, function r(s) {
             n && !n(s) || (i(s), t.removeEventListener(e, r));
@@ -29366,7 +29366,7 @@ const Fx = Math.PI / 32,
     [zm]() {
       var _this46 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         const t = !_this46.iosSrc;
 
         _this46[Om].classList.remove("enabled");
@@ -29384,7 +29384,7 @@ const Fx = Math.PI / 32,
     prepareUSDZ() {
       var _this47 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         const t = _this47[lp].beginActivity();
 
         yield _this47[Jm]();
@@ -29528,7 +29528,7 @@ const Fx = Math.PI / 32,
       var _superprop_getUpdated2 = () => super.updated,
           _this48 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         _superprop_getUpdated2().call(_this48, t), t.has("poster") && null != _this48.poster && (_this48[iv].style.backgroundImage = `url(${_this48.poster})`), t.has("alt") && _this48[iv].setAttribute("aria-label", `${_this48[Zd]}. ${_this48[uv]}`), (t.has("reveal") || t.has("loading")) && _this48[$d](), t.has("generateSchema") && (!0 === _this48.generateSchema ? _this48[np].updateSchema(_this48.src) : _this48[np].updateSchema(null)), t.has("seamlessPoster") && (!0 === _this48.seamlessPoster ? _this48[nv].classList.add("quick") : _this48[nv].classList.remove("quick"));
       })();
     }
@@ -29570,7 +29570,7 @@ const Fx = Math.PI / 32,
       var _superprop_get2 = _prop2 => super[_prop2],
           _this49 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         _this49[lv] = 0, !0 === _this49.generateSchema && _this49[np].updateSchema(_this49.src), null != _this49[np].currentGLTF && null != _this49.src && _this49[up]() || _this49.showPoster(), yield _superprop_get2($d).call(_this49);
       })();
     }
@@ -29660,7 +29660,7 @@ const Fx = Math.PI / 32,
       var _superprop_get3 = _prop3 => super[_prop3],
           _this50 = this;
 
-      return (0,C_Users_klas_Git_kukai_private_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      return (0,C_Users_klas_Git_kukai_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         return _this50[np].stopAnimation(), _superprop_get3($d).call(_this50);
       })();
     }
